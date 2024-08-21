@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Body styling */
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 15rem;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+/* box 1 styling */
+main div.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div.box-1 img {
+    width: 100%;
+    border-radius: 0.85rem;
+}
+
+/* box 2 styling  */
+main div.box-2 {
+    margin: 0.7rem auto 0 auto;
+    max-width: 95%;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+main div.box-2 h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
+}
+
+main div.box-2 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    width: 100%;
+}
+
+footer div.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer div.attribution a {
+    color: hsl(228, 45%, 44%);
+}
